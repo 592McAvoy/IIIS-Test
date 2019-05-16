@@ -1,0 +1,1772 @@
+diff --git a/.gitignore b/.gitignore
+old mode 100644
+new mode 100755
+diff --git a/LICENSE b/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/README.md b/README.md
+old mode 100644
+new mode 100755
+diff --git a/carla08/__init__.py b/carla08/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/__init__.py b/carla08/agent/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/agent.py b/carla08/agent/agent.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/command_follower.py b/carla08/agent/command_follower.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/forward_agent.py b/carla08/agent/forward_agent.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/human_agent.py b/carla08/agent/human_agent.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/lane_follower.py b/carla08/agent/lane_follower.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/modules/__init__.py b/carla08/agent/modules/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/modules/controllers.py b/carla08/agent/modules/controllers.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/modules/obstacle_avoidance.py b/carla08/agent/modules/obstacle_avoidance.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/modules/utils.py b/carla08/agent/modules/utils.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/agent/modules/waypointer.py b/carla08/agent/modules/waypointer.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/carla_server_pb2.py b/carla08/carla_server_pb2.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/client.py b/carla08/client.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/__init__.py b/carla08/driving_benchmark/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/driving_benchmark.py b/carla08/driving_benchmark/driving_benchmark.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/experiment.py b/carla08/driving_benchmark/experiment.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/experiment_suites/__init__.py b/carla08/driving_benchmark/experiment_suites/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/experiment_suites/basic_experiment_suite.py b/carla08/driving_benchmark/experiment_suites/basic_experiment_suite.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/experiment_suites/corl_2017.py b/carla08/driving_benchmark/experiment_suites/corl_2017.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/experiment_suites/experiment_suite.py b/carla08/driving_benchmark/experiment_suites/experiment_suite.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/experiment_suites/longcontrol_2018.py b/carla08/driving_benchmark/experiment_suites/longcontrol_2018.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/metrics.py b/carla08/driving_benchmark/metrics.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/recording.py b/carla08/driving_benchmark/recording.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/driving_benchmark/results_printer.py b/carla08/driving_benchmark/results_printer.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/image_converter.py b/carla08/image_converter.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town01.png b/carla08/planner/Town01.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town01.txt b/carla08/planner/Town01.txt
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town01Central.png b/carla08/planner/Town01Central.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town01Lanes.png b/carla08/planner/Town01Lanes.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town02.png b/carla08/planner/Town02.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town02.txt b/carla08/planner/Town02.txt
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town02Big.png b/carla08/planner/Town02Big.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town02Central.png b/carla08/planner/Town02Central.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/Town02Lanes.png b/carla08/planner/Town02Lanes.png
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/__init__.py b/carla08/planner/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/astar.py b/carla08/planner/astar.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/bezier.py b/carla08/planner/bezier.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/city_track.py b/carla08/planner/city_track.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/converter.py b/carla08/planner/converter.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/graph.py b/carla08/planner/graph.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/grid.py b/carla08/planner/grid.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/map.py b/carla08/planner/map.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/planner/planner.py b/carla08/planner/planner.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/sensor.py b/carla08/sensor.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/settings.py b/carla08/settings.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/tcp.py b/carla08/tcp.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/transform.py b/carla08/transform.py
+old mode 100644
+new mode 100755
+diff --git a/carla08/util.py b/carla08/util.py
+old mode 100644
+new mode 100755
+diff --git a/carla09/carla-0.9.0.tar.gz b/carla09/carla-0.9.0.tar.gz
+old mode 100644
+new mode 100755
+diff --git a/coil_core/__init__.py b/coil_core/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/coil_core/executer.py b/coil_core/executer.py
+old mode 100644
+new mode 100755
+diff --git a/coil_core/run_drive.py b/coil_core/run_drive.py
+old mode 100644
+new mode 100755
+diff --git a/coil_core/train.py b/coil_core/train.py
+old mode 100644
+new mode 100755
+index f0cc092..4ff1962
+--- a/coil_core/train.py
++++ b/coil_core/train.py
+@@ -6,8 +6,12 @@ import traceback
+ import torch
+ import torch.optim as optim
+ 
++from torchvision.transforms import ToTensor, ToPILImage
++import numpy as np
+ from configs import g_conf, set_type_of_process, merge_with_yaml
+ from network import CoILModel, Loss, adjust_learning_rate_auto
++from network.models import ERFNet
++from network.models.transform import Relabel, ToLabel, Colorize
+ from input import CoILDataset, Augmenter, select_balancing_strategy
+ from logger import coil_logger
+ from coilutils.checkpoint_schedule import is_ready_to_save, get_latest_saved_checkpoint, \
+@@ -101,6 +105,25 @@ def execute(gpu, exp_batch, exp_alias, suppress_output=True, number_of_workers=1
+         model = CoILModel(g_conf.MODEL_TYPE, g_conf.MODEL_CONFIGURATION)
+         model.cuda()
+         optimizer = optim.Adam(model.parameters(), lr=g_conf.LEARNING_RATE)
++        
++
++        # Set ERFnet for segmentation
++        model_erf = ERFNet(20)
++        model_erf = torch.nn.DataParallel(model_erf)
++        model_erf = model_erf.cuda()        
++        
++        print("LOAD ERFNet")
++        def load_my_state_dict(model, state_dict):  #custom function to load model when not all dict elements
++            own_state = model.state_dict()
++            for name, param in state_dict.items():
++                if name not in own_state:
++                    continue
++                own_state[name].copy_(param)
++            return model
++        
++        model_erf = load_my_state_dict(model_erf, torch.load(os.path.join('trained_models/erfnet_pretrained.pth')))
++        model_erf.eval()
++        print ("ERFNet and weights LOADED successfully")
+ 
+         if checkpoint_file is not None or g_conf.PRELOAD_MODEL_ALIAS is not None:
+             model.load_state_dict(checkpoint['state_dict'])
+@@ -110,6 +133,7 @@ def execute(gpu, exp_batch, exp_alias, suppress_output=True, number_of_workers=1
+         else:  # We accumulate iteration time and keep the average speed
+             accumulated_time = 0
+             loss_window = []
++       
+ 
+         print ("Before the loss")
+ 
+@@ -139,8 +163,80 @@ def execute(gpu, exp_batch, exp_alias, suppress_output=True, number_of_workers=1
+             controls = data['directions']
+             # The output(branches) is a list of 5 branches results, each branch is with size [120,3]
+             model.zero_grad()
+-            branches = model(torch.squeeze(data['rgb'].cuda()),
++
++            # print("Segmentation")
++            # use ERFNet to convert RGB to Segmentation
++            rgbs = data['rgb']
++            filenames = data['rgb_name']
++
++            # # seg one by one
++            # seg_road = []
++            # seg_not_road = []
++            # i = 0
++            # for inputs in rgbs:
++            #     inputs = inputs.unsqueeze(0)
++            #     # print("inputs ",inputs.shape)
++            #     with torch.no_grad():
++            #         outputs = model_erf(inputs)
++
++            #     label = outputs[0].max(0)[1].byte().cpu().data
++
++            #     road = (label == 0)
++            #     not_road = (label != 0)
++            #     seg_road.append(road)
++            #     seg_not_road.append(not_road)   
++
++            #     # # print("label ",label.shape)
++            #     # label_color = Colorize()(label.unsqueeze(0))
++            #     # filename = filenames[i]                
++            #     # filenameSave = "./save_color/" + filename.split("CoILTrain/")[1]
++            #     # os.makedirs(os.path.dirname(filenameSave), exist_ok=True)
++                   
++            #     # label_save = ToPILImage()(label_color)           
++            #     # label_save.save(filenameSave) 
++            #     # # print (i, filenameSave)
++            #     # i += 1                 
++
++            # seg_road = torch.stack(seg_road)
++            # seg_not_road = torch.stack(seg_not_road)
++            # seg = torch.stack([seg_road,seg_not_road]).transpose(0,1).float()
++            # # print(seg.shape)
++            
++            # seg batch
++            with torch.no_grad():
++                outputs = model_erf(rgbs)
++            # print("outputs.shape ",outputs.shape)
++            labels = outputs.max(1)[1].byte().cpu().data
++            # print("labels.shape",labels.shape)
++            # print(np.unique(labels[0])) 
++
++            seg_road = (labels==0)
++            seg_not_road = (labels!=0)
++            seg = torch.stack((seg_road,seg_not_road),1).float()
++
++            # save 1st batch's segmentation results
++            if iteration == 1:
++                for i in range(120):
++                    label = seg[i,0,:,:]
++                    label_color = Colorize()(label.unsqueeze(0))               
++                    filenameSave = "./save_color/batch_road_mask/%d.png"%(i)
++                    os.makedirs(os.path.dirname(filenameSave), exist_ok=True)                   
++                    label_save = ToPILImage()(label_color)           
++                    label_save.save(filenameSave)
++
++                    label = labels[i,:,:]
++                    label_color = Colorize()(label.unsqueeze(0))               
++                    filenameSave = "./save_color/batch_road/%d.png"%(i)
++                    os.makedirs(os.path.dirname(filenameSave), exist_ok=True)                   
++                    label_save = ToPILImage()(label_color)           
++                    label_save.save(filenameSave)
++
++
++            branches = model(torch.squeeze(seg).cuda(),
+                              dataset.extract_inputs(data).cuda())
++#             branches = model(torch.squeeze(rgbs.cuda()),
++#                              dataset.extract_input(data).cuda())
++
+             loss_function_params = {
+                 'branches': branches,
+                 'targets': dataset.extract_targets(data).cuda(),
+diff --git a/coil_core/validate.py b/coil_core/validate.py
+old mode 100644
+new mode 100755
+index 7d81230..b4d9e46
+--- a/coil_core/validate.py
++++ b/coil_core/validate.py
+@@ -12,6 +12,8 @@ import dlib
+ 
+ from configs import g_conf, set_type_of_process, merge_with_yaml
+ from network import CoILModel
++from network.models import ERFNet
++from network.models.transform import Relabel, ToLabel, Colorize
+ from input import CoILDataset, Augmenter
+ from logger import coil_logger
+ from coilutils.checkpoint_schedule import get_latest_evaluated_checkpoint, is_next_checkpoint_ready,\
+@@ -88,6 +90,25 @@ def execute(gpu, exp_batch, exp_alias, dataset_name, suppress_output):
+                                                   pin_memory=True)
+ 
+         model = CoILModel(g_conf.MODEL_TYPE, g_conf.MODEL_CONFIGURATION)
++
++        # Set ERFnet for segmentation
++        model_erf = ERFNet(20)
++        model_erf = torch.nn.DataParallel(model_erf)
++        model_erf = model_erf.cuda()        
++        
++        print("LOAD ERFNet - validate")
++        def load_my_state_dict(model, state_dict):  #custom function to load model when not all dict elements
++            own_state = model.state_dict()
++            for name, param in state_dict.items():
++                if name not in own_state:
++                    continue
++                own_state[name].copy_(param)
++            return model
++        
++        model_erf = load_my_state_dict(model_erf, torch.load(os.path.join('trained_models/erfnet_pretrained.pth')))
++        model_erf.eval()
++        print ("ERFNet and weights LOADED successfully")
++
+         # The window used to keep track of the trainings
+         l1_window = []
+         latest = get_latest_evaluated_checkpoint()
+@@ -122,9 +143,23 @@ def execute(gpu, exp_batch, exp_alias, dataset_name, suppress_output):
+ 
+                     # Compute the forward pass on a batch from  the validation dataset
+                     controls = data['directions']
+-                    output = model.forward_branch(torch.squeeze(data['rgb']).cuda(),
++
++                    # Seg batch
++                    rgbs = data['rgb']
++                    with torch.no_grad():
++                        outputs = model_erf(rgbs)
++                    labels = outputs.max(1)[1].byte().cpu().data
++
++                    seg_road = (labels==0)
++                    seg_not_road = (labels!=0)
++                    seg = torch.stack((seg_road,seg_not_road),1).float()            
++
++                    output = model.forward_branch(torch.squeeze(seg).cuda(),
+                                                   dataset.extract_inputs(data).cuda(),
+                                                   controls)
++                    
++#                    output = model.foward_branch(torch.squeeze(rgbs).cuda(),
++#                                                 dataset.extract_inputs(data).cuda(),controls)
+                     # It could be either waypoints or direct control
+                     if 'waypoint1_angle' in g_conf.TARGETS:
+                         write_waypoints_output(checkpoint_iteration, output)
+diff --git a/coiltraine.py b/coiltraine.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/__init__.py b/coilutils/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/attribute_dict.py b/coilutils/attribute_dict.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/checking.py b/coilutils/checking.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/checkpoint_schedule.py b/coilutils/checkpoint_schedule.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/drive_utils.py b/coilutils/drive_utils.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/experiment_schedule.py b/coilutils/experiment_schedule.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/exporter.py b/coilutils/exporter.py
+old mode 100644
+new mode 100755
+diff --git a/coilutils/general.py b/coilutils/general.py
+old mode 100644
+new mode 100755
+diff --git a/configs/__init__.py b/configs/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/configs/baselines/resnet34imnet.yaml b/configs/baselines/resnet34imnet.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/coil_global.py b/configs/coil_global.py
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_1.yaml b/configs/eccv/experiment_1.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_11.yaml b/configs/eccv/experiment_11.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_12.yaml b/configs/eccv/experiment_12.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_18.yaml b/configs/eccv/experiment_18.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_19.yaml b/configs/eccv/experiment_19.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_2.yaml b/configs/eccv/experiment_2.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_20.yaml b/configs/eccv/experiment_20.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_22.yaml b/configs/eccv/experiment_22.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_23.yaml b/configs/eccv/experiment_23.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_24.yaml b/configs/eccv/experiment_24.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_3.yaml b/configs/eccv/experiment_3.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_33.yaml b/configs/eccv/experiment_33.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_37.yaml b/configs/eccv/experiment_37.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_39.yaml b/configs/eccv/experiment_39.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_4.yaml b/configs/eccv/experiment_4.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_40.yaml b/configs/eccv/experiment_40.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_41.yaml b/configs/eccv/experiment_41.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_42.yaml b/configs/eccv/experiment_42.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_43.yaml b/configs/eccv/experiment_43.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_44.yaml b/configs/eccv/experiment_44.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_47.yaml b/configs/eccv/experiment_47.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_49.yaml b/configs/eccv/experiment_49.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_5.yaml b/configs/eccv/experiment_5.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_50.yaml b/configs/eccv/experiment_50.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_51.yaml b/configs/eccv/experiment_51.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_52.yaml b/configs/eccv/experiment_52.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_53.yaml b/configs/eccv/experiment_53.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_54.yaml b/configs/eccv/experiment_54.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_55.yaml b/configs/eccv/experiment_55.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_56.yaml b/configs/eccv/experiment_56.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_57.yaml b/configs/eccv/experiment_57.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_58.yaml b/configs/eccv/experiment_58.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_59.yaml b/configs/eccv/experiment_59.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_6.yaml b/configs/eccv/experiment_6.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_64.yaml b/configs/eccv/experiment_64.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_65.yaml b/configs/eccv/experiment_65.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_66.yaml b/configs/eccv/experiment_66.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_67.yaml b/configs/eccv/experiment_67.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_68.yaml b/configs/eccv/experiment_68.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_69.yaml b/configs/eccv/experiment_69.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_7.yaml b/configs/eccv/experiment_7.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_70.yaml b/configs/eccv/experiment_70.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_71.yaml b/configs/eccv/experiment_71.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_72.yaml b/configs/eccv/experiment_72.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_73.yaml b/configs/eccv/experiment_73.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_74.yaml b/configs/eccv/experiment_74.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_75.yaml b/configs/eccv/experiment_75.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_76.yaml b/configs/eccv/experiment_76.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_77.yaml b/configs/eccv/experiment_77.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_78.yaml b/configs/eccv/experiment_78.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_79.yaml b/configs/eccv/experiment_79.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_80.yaml b/configs/eccv/experiment_80.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_81.yaml b/configs/eccv/experiment_81.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_82.yaml b/configs/eccv/experiment_82.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_83.yaml b/configs/eccv/experiment_83.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_84.yaml b/configs/eccv/experiment_84.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_85.yaml b/configs/eccv/experiment_85.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_86.yaml b/configs/eccv/experiment_86.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_87.yaml b/configs/eccv/experiment_87.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_88.yaml b/configs/eccv/experiment_88.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_89.yaml b/configs/eccv/experiment_89.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_90.yaml b/configs/eccv/experiment_90.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_91.yaml b/configs/eccv/experiment_91.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/eccv/experiment_92.yaml b/configs/eccv/experiment_92.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/namer.py b/configs/namer.py
+old mode 100644
+new mode 100755
+diff --git a/configs/nocrash/resnet34imnet10-nospeed.yaml b/configs/nocrash/resnet34imnet10-nospeed.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/nocrash/resnet34imnet100-nospeed.yaml b/configs/nocrash/resnet34imnet100-nospeed.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/nocrash/resnet34imnet100.yaml b/configs/nocrash/resnet34imnet100.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/nocrash/resnet34imnet10S1.yaml b/configs/nocrash/resnet34imnet10S1.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/nocrash/resnet34imnet10S2.yaml b/configs/nocrash/resnet34imnet10S2.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/others/resnet34imnet4.yaml b/configs/others/resnet34imnet4.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/others/resnet34imnet_preload.yaml b/configs/others/resnet34imnet_preload.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/sample/coil_icra.yaml b/configs/sample/coil_icra.yaml
+old mode 100644
+new mode 100755
+diff --git a/configs/val_based_sample/coil_icra.yaml b/configs/val_based_sample/coil_icra.yaml
+old mode 100644
+new mode 100755
+diff --git a/docs/carla_challenge_coil_baseline.md b/docs/carla_challenge_coil_baseline.md
+old mode 100644
+new mode 100755
+diff --git a/docs/coiltraine.md b/docs/coiltraine.md
+old mode 100644
+new mode 100755
+diff --git a/docs/configuration.md b/docs/configuration.md
+old mode 100644
+new mode 100755
+diff --git a/docs/driving.md b/docs/driving.md
+old mode 100644
+new mode 100755
+diff --git a/docs/executer.md b/docs/executer.md
+old mode 100644
+new mode 100755
+diff --git a/docs/exploring_limitations.md b/docs/exploring_limitations.md
+old mode 100644
+new mode 100755
+diff --git a/docs/img/CoIL.png b/docs/img/CoIL.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/initial.png b/docs/img/initial.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/second.png b/docs/img/second.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/test.png b/docs/img/test.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/testnoise.png b/docs/img/testnoise.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/thumbnail.png b/docs/img/thumbnail.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/training.png b/docs/img/training.png
+old mode 100644
+new mode 100755
+diff --git a/docs/img/trainingnoise.png b/docs/img/trainingnoise.png
+old mode 100644
+new mode 100755
+diff --git a/docs/input.md b/docs/input.md
+old mode 100644
+new mode 100755
+diff --git a/docs/logger.md b/docs/logger.md
+old mode 100644
+new mode 100755
+diff --git a/docs/main_modules.md b/docs/main_modules.md
+old mode 100644
+new mode 100755
+diff --git a/docs/network.md b/docs/network.md
+old mode 100644
+new mode 100755
+diff --git a/docs/on_offline_evaluation.md b/docs/on_offline_evaluation.md
+old mode 100644
+new mode 100755
+diff --git a/docs/pull_request_template.md b/docs/pull_request_template.md
+old mode 100644
+new mode 100755
+diff --git a/drive/CoILBaseline.py b/drive/CoILBaseline.py
+old mode 100644
+new mode 100755
+index 9c0f34b..6d7b39f
+--- a/drive/CoILBaseline.py
++++ b/drive/CoILBaseline.py
+@@ -15,7 +15,7 @@ import torch
+ from coilutils.drive_utils import checkpoint_parse_configuration_file
+ from configs import g_conf, merge_with_yaml
+ from network import CoILModel
+-
++from network.models import ERFNet
+ 
+ # CARLA ROOT can probably be erased
+ 
+@@ -67,6 +67,25 @@ class CoILBaseline(AutonomousAgent):
+         self._model.load_state_dict(checkpoint['state_dict'])
+         self._model.cuda()
+         self._model.eval()
++
++        # Set ERFnet for segmentation
++        self.model_erf = ERFNet(20)
++        self.model_erf = torch.nn.DataParallel(self.model_erf)
++        self.model_erf = self.model_erf.cuda()        
++                                        
++        print("LOAD ERFNet - drive")
++        def load_my_state_dict(model, state_dict):  #custom function to load model when not all dict elements
++            own_state = model.state_dict()
++            for name, param in state_dict.items():
++                if name not in own_state:
++                    continue
++            own_state[name].copy_(param)
++            return model
++                                                                                                                       
++        self.model_erf = load_my_state_dict(self.model_erf, torch.load(os.path.join('trained_models/erfnet_pretrained.pth')))
++        self.model_erf.eval()
++        print ("ERFNet and weights LOADED successfully")
++        
+         self.latest_image = None
+         self.latest_image_tensor = None
+         # We add more time to the curve commands
+@@ -102,10 +121,23 @@ class CoILBaseline(AutonomousAgent):
+         norm_speed = input_data['can_bus'][1]['speed'] / g_conf.SPEED_FACTOR
+         norm_speed = torch.cuda.FloatTensor([norm_speed]).unsqueeze(0)
+         directions_tensor = torch.cuda.LongTensor([directions])
+-        # Compute the forward pass processing the sensors got from CARLA.
+-        model_outputs = self._model.forward_branch(self._process_sensors(input_data['rgb'][1]),
++        
++        rgbs = self._process_sensors(input_data['rgb'][1])
++        with torch.no_grad():
++            outputs = self.model_erf(rgbs)
++        labels = outputs.max(1)[1].byte().cpu().data
++
++        seg_road = (labels==0)
++        seg_not_road = (labels!=0)
++        seg = torch.stack((seg_road,seg_not_road),1).float() 
++  
++        model_outputs = self._model.forward_branch(seg.cuda(),
+                                                    norm_speed,
+                                                    directions_tensor)
++        # Compute the forward pass processing the sensors got from CARLA.
++        #model_outputs = self._model.forward_branch(self._process_sensors(input_data['rgb'][1]),
++        #                                           norm_speed,
++        #                                           directions_tensor)
+ 
+         steer, throttle, brake = self._process_model_outputs(model_outputs[0])
+         control = carla.VehicleControl()
+@@ -242,4 +274,4 @@ class CoILBaseline(AutonomousAgent):
+                 if changed_index < len(topological_plan):
+                     topological_plan[changed_index] = (topological_plan[changed_index][0], command)
+ 
+-        return topological_plan
+\ No newline at end of file
++        return topological_plan
+diff --git a/drive/__init__.py b/drive/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/drive/coil_agent.py b/drive/coil_agent.py
+old mode 100644
+new mode 100755
+index 9b048aa..9c1f1e3
+--- a/drive/coil_agent.py
++++ b/drive/coil_agent.py
+@@ -20,6 +20,7 @@ from carla08.agent import CommandFollower
+ from carla08.client import VehicleControl
+ 
+ from network import CoILModel
++from network.models import ERFNet
+ from configs import g_conf
+ from logger import coil_logger
+ 
+@@ -48,6 +49,24 @@ class CoILAgent(object):
+         self._model.cuda()
+         self._model.eval()
+ 
++        # Set ERFnet for segmentation
++        self.model_erf = ERFNet(20)
++        self.model_erf = torch.nn.DataParallel(self.model_erf)
++        self.model_erf.cuda()        
++                         
++        print("LOAD ERFNet - validate")
++        def load_my_state_dict(model, state_dict):  #custom function to load model when not all dict elements
++            own_state = model.state_dict()
++            for name, param in state_dict.items():
++                if name not in own_state:
++                    continue
++            own_state[name].copy_(param)
++            return model
++                                                                                                                       
++        self.model_erf = load_my_state_dict(self.model_erf, torch.load(os.path.join('trained_models/erfnet_pretrained.pth')))
++        self.model_erf.eval()
++        print ("ERFNet and weights LOADED successfully")
++        
+         self.latest_image = None
+         self.latest_image_tensor = None
+ 
+@@ -73,8 +92,20 @@ class CoILAgent(object):
+         norm_speed = torch.cuda.FloatTensor([norm_speed]).unsqueeze(0)
+         directions_tensor = torch.cuda.LongTensor([directions])
+         # Compute the forward pass processing the sensors got from CARLA.
+-        model_outputs = self._model.forward_branch(self._process_sensors(sensor_data), norm_speed,
++        rgbs = self._process_sensors(sensor_data)
++        with torch.no_grad():
++            outputs = self.model_erf(rgbs)
++        labels = outputs.max(1)[1].byte().cpu().data
++
++        seg_road = (labels==0)
++        seg_not_road = (labels!=0)
++        seg = torch.stack((seg_road,seg_not_road),1).float() 
++
++        model_outputs = self._model.forward_branch(seg.cuda(), norm_speed,
+                                                   directions_tensor)
++        
++#        model_outputs = self._model.forward_branch(self._process_sensors(sensor_data), norm_speed,
++#                                                   directions_tensor)
+ 
+         steer, throttle, brake = self._process_model_outputs(model_outputs[0])
+         if self._carla_version == '0.9':
+@@ -198,4 +229,4 @@ class CoILAgent(object):
+         # For the oracle, the current version of sensor data is not really relevant.
+         control, _, _, _, _ = self.control_agent.run_step(measurements, [], [], target)
+ 
+-        return control.steer, control.throttle, control.brake
+\ No newline at end of file
++        return control.steer, control.throttle, control.brake
+diff --git a/drive/sample_agent.json b/drive/sample_agent.json
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/__init__.py b/drive/suites/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/corl_new_town_suite.py b/drive/suites/corl_new_town_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/corl_new_weather_suite.py b/drive/suites/corl_new_weather_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/corl_new_weather_town_suite.py b/drive/suites/corl_new_weather_town_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/corl_training_suite.py b/drive/suites/corl_training_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/eccv_generalization_suite.py b/drive/suites/eccv_generalization_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/eccv_training_suite.py b/drive/suites/eccv_training_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/nocrash_new_town_suite.py b/drive/suites/nocrash_new_town_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/nocrash_new_weather_suite.py b/drive/suites/nocrash_new_weather_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/nocrash_new_weather_town_suite.py b/drive/suites/nocrash_new_weather_town_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/nocrash_training_suite.py b/drive/suites/nocrash_training_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/test_t1_suite.py b/drive/suites/test_t1_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/test_t2_suite.py b/drive/suites/test_t2_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/suites/test_t2large_suite.py b/drive/suites/test_t2large_suite.py
+old mode 100644
+new mode 100755
+diff --git a/drive/wheel.png b/drive/wheel.png
+old mode 100644
+new mode 100755
+diff --git a/input/__init__.py b/input/__init__.py
+old mode 100644
+new mode 100755
+index d40dd76..ed6be75
+--- a/input/__init__.py
++++ b/input/__init__.py
+@@ -1,4 +1,5 @@
+ from .coil_dataset import CoILDataset
+ from .coil_sampler import BatchSequenceSampler, RandomSampler, PreSplittedSampler
+ from .augmenter import Augmenter
+-from .splitter import select_balancing_strategy
+\ No newline at end of file
++from .splitter import select_balancing_strategy
++from .erf_dataset import CoIL
+\ No newline at end of file
+diff --git a/input/augmenter.py b/input/augmenter.py
+old mode 100644
+new mode 100755
+diff --git a/input/coil_dataset.py b/input/coil_dataset.py
+old mode 100644
+new mode 100755
+index c9aa737..ed96de4
+--- a/input/coil_dataset.py
++++ b/input/coil_dataset.py
+@@ -23,7 +23,6 @@ from configs import g_conf
+ from coilutils.general import sort_nicely
+ 
+ 
+-
+ def parse_remove_configuration(configuration):
+     """
+     Turns the configuration line of sliptting into a name and a set of params.
+@@ -120,6 +119,7 @@ class CoILDataset(Dataset):
+                 measurements[k] = v.float()
+ 
+             measurements['rgb'] = img
++            measurements['rgb_name'] = img_path
+ 
+             self.batch_read_number += 1
+         except AttributeError:
+@@ -365,7 +365,7 @@ class CoILDataset(Dataset):
+             value error when the configuration set targets that didn't exist in metadata
+         """
+         targets_vec = []
+-        for target_name in g_conf.TARGETS:
++        for target_name in g_conf.TARGETS:            
+             targets_vec.append(data[target_name])
+ 
+         return torch.cat(targets_vec, 1)
+diff --git a/input/coil_sampler.py b/input/coil_sampler.py
+old mode 100644
+new mode 100755
+diff --git a/input/data_parser.py b/input/data_parser.py
+old mode 100644
+new mode 100755
+index 5b749a9..36eda27
+--- a/input/data_parser.py
++++ b/input/data_parser.py
+@@ -35,7 +35,6 @@ def get_speed(measurement_data):
+     else:  # There is no speed key, probably speed is zero.
+         return 0
+ 
+-
+ def check_available_measurements(episode):
+     """ Try to automatically check the measurements
+         The ones named 'steer' are probably the steer for the vehicle
+diff --git a/input/erf_dataset.py b/input/erf_dataset.py
+new file mode 100755
+index 0000000..7ef99a6
+--- /dev/null
++++ b/input/erf_dataset.py
+@@ -0,0 +1,61 @@
++# Code with dataset loader for VOC12 and Cityscapes (adapted from bodokaiser/piwise code)
++# Sept 2017
++# Eduardo Romera
++#######################
++
++import numpy as np
++import os
++
++from PIL import Image
++
++from torch.utils.data import Dataset
++
++EXTENSIONS = ['.jpg', '.png']
++
++def load_image(file):
++    return Image.open(file)
++
++def is_image(filename):
++    return any(filename.endswith(ext) for ext in EXTENSIONS)
++
++def is_label(filename):
++    return filename.endswith("_labelIds.png")
++
++def image_path(root, basename, extension):
++    return os.path.join(root, "%s%s"%(basename,extension))
++
++def image_path_city(root, name):
++    return os.path.join(root, "%s"%(name))
++
++def image_basename(filename):
++    return os.path.basename(os.path.splitext(filename)[0])
++
++
++class CoIL(Dataset):
++    
++    def __init__(self, filenames, input_transform=None, target_transform=None):
++        self.filenames = filenames
++        # self.filenames.sort()
++
++        print("filnames size:", len(self.filenames))
++
++        self.input_transform = input_transform
++        self.target_transform = target_transform
++
++    def __getitem__(self, index):
++        filename = self.filenames[index]
++
++        #print(filename)
++
++        with open(filename, 'rb') as f:
++            image = load_image(f).convert('RGB')
++       
++        if self.input_transform is not None:
++            image = self.input_transform(image)
++
++        return image, 'None', filename, 'None'
++
++    def __len__(self):
++        return len(self.filenames)
++
++
+diff --git a/input/scheduler.py b/input/scheduler.py
+old mode 100644
+new mode 100755
+diff --git a/input/splitter.py b/input/splitter.py
+old mode 100644
+new mode 100755
+diff --git a/logger/__init__.py b/logger/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/logger/carla_metrics_parser.py b/logger/carla_metrics_parser.py
+old mode 100644
+new mode 100755
+diff --git a/logger/coil_logger.py b/logger/coil_logger.py
+old mode 100644
+new mode 100755
+index 404bd2b..4c241ef
+--- a/logger/coil_logger.py
++++ b/logger/coil_logger.py
+@@ -206,7 +206,9 @@ def erase_csv(checkpoint_name):
+ 
+     file_name = os.path.join(full_path_name, str(checkpoint_name) + '.csv')
+ 
+-    os.remove(file_name)
++    if os.path.exists(file_name):        
++        os.remove(file_name)
++
+ 
+ 
+ def recover_loss_window(dataset_name, iteration):
+diff --git a/logger/json_formatter.py b/logger/json_formatter.py
+old mode 100644
+new mode 100755
+diff --git a/logger/monitorer.py b/logger/monitorer.py
+old mode 100644
+new mode 100755
+diff --git a/logger/namer.py b/logger/namer.py
+old mode 100644
+new mode 100755
+diff --git a/logger/printer.py b/logger/printer.py
+old mode 100644
+new mode 100755
+diff --git a/logger/tensorboard_logger.py b/logger/tensorboard_logger.py
+old mode 100644
+new mode 100755
+diff --git a/logger/utils.py b/logger/utils.py
+old mode 100644
+new mode 100755
+diff --git a/manipulate_experiments.py b/manipulate_experiments.py
+old mode 100644
+new mode 100755
+diff --git a/model_view/carla08interface.py b/model_view/carla08interface.py
+old mode 100644
+new mode 100755
+diff --git a/model_view/carla09interface.py b/model_view/carla09interface.py
+old mode 100644
+new mode 100755
+diff --git a/network/__init__.py b/network/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/network/coil_model.py b/network/coil_model.py
+old mode 100644
+new mode 100755
+diff --git a/network/loss.py b/network/loss.py
+old mode 100644
+new mode 100755
+index 97ef70d..a208d8e
+--- a/network/loss.py
++++ b/network/loss.py
+@@ -44,11 +44,10 @@ def branched_loss(loss_function, params):
+     # Apply the variable weights
+     # This is applied to all branches except the last one, that is the speed branch...
+     # TODO This is hardcoded to  have 4 branches not using speed.
+-
+     for i in range(4):
+         loss_branches_vec[i] = loss_branches_vec[i][:, 0] * params['variable_weights']['Steer'] \
+-                               + loss_branches_vec[i][:, 1] * params['variable_weights']['Gas'] \
+-                               + loss_branches_vec[i][:, 2] * params['variable_weights']['Brake']
++                            + loss_branches_vec[i][:, 1] * params['variable_weights']['Gas'] \
++                            + loss_branches_vec[i][:, 2] * params['variable_weights']['Brake']
+ 
+     loss_function = loss_branches_vec[0] + loss_branches_vec[1] + loss_branches_vec[2] + \
+                     loss_branches_vec[3]
+diff --git a/network/loss_functional.py b/network/loss_functional.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/__init__.py b/network/models/__init__.py
+index d3d5539..8388c4c 100644
+--- a/network/models/__init__.py
++++ b/network/models/__init__.py
+@@ -1 +1,3 @@
+-from  .coil_icra import CoILICRA
+\ No newline at end of file
++
++from  .coil_icra import CoILICRA
++from  .erfnet import ERFNet
+diff --git a/network/models/building_blocks/__init__.py b/network/models/building_blocks/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/building_blocks/branching.py b/network/models/building_blocks/branching.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/building_blocks/conv.py b/network/models/building_blocks/conv.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/building_blocks/fc.py b/network/models/building_blocks/fc.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/building_blocks/join.py b/network/models/building_blocks/join.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/building_blocks/resnet.py b/network/models/building_blocks/resnet.py
+old mode 100644
+new mode 100755
+diff --git a/network/models/coil_icra.py b/network/models/coil_icra.py
+old mode 100644
+new mode 100755
+index 90e92b6..102b162
+--- a/network/models/coil_icra.py
++++ b/network/models/coil_icra.py
+@@ -1,4 +1,5 @@
+ from logger import coil_logger
++import os
+ import torch.nn as nn
+ import torch
+ import importlib
+@@ -24,11 +25,16 @@ class CoILICRA(nn.Module):
+         for _, sizes in g_conf.SENSORS.items():
+             number_first_layer_channels += sizes[0] * g_conf.NUMBER_FRAMES_FUSION
+ 
++        number_first_layer_channels = 2
+         # Get one item from the dict
+         sensor_input_shape = next(iter(g_conf.SENSORS.values()))
+         sensor_input_shape = [number_first_layer_channels, sensor_input_shape[1],
+                               sensor_input_shape[2]]
+ 
++        # hardcode first_layer_channels to be 2 (road / not_road)
++        #
++        print("number_first_layer_channels", number_first_layer_channels)
++
+         # For this case we check if the perception layer is of the type "conv"
+         if 'conv' in params['perception']:
+             perception_convs = Conv(params={'channels': [number_first_layer_channels] +
+@@ -82,6 +88,7 @@ class CoILICRA(nn.Module):
+                                        'end_layer': True})
+ 
+         # Create the fc vector separatedely
++        print("targets: ",g_conf.TARGETS)
+         branch_fc_vector = []
+         for i in range(params['branches']['number_of_branches']):
+             branch_fc_vector.append(FC(params={'neurons': [params['join']['fc']['neurons'][-1]] +
+@@ -112,6 +119,7 @@ class CoILICRA(nn.Module):
+ 
+         """ ###### APPLY THE MEASUREMENT MODULE """
+         m = self.measurements(a)
++ 
+         """ Join measurements and perception"""
+         j = self.join(x, m)
+ 
+diff --git a/network/models/erfnet.py b/network/models/erfnet.py
+new file mode 100755
+index 0000000..42008a0
+--- /dev/null
++++ b/network/models/erfnet.py
+@@ -0,0 +1,155 @@
++# ERFNET full network definition for Pytorch
++# Sept 2017
++# Eduardo Romera
++#######################
++
++import torch
++import torch.nn as nn
++import torch.nn.init as init
++import torch.nn.functional as F
++
++
++class DownsamplerBlock (nn.Module):
++    def __init__(self, ninput, noutput):
++        super().__init__()
++
++        self.conv = nn.Conv2d(ninput, noutput-ninput, (3, 3), stride=2, padding=1, bias=True)
++        self.pool = nn.MaxPool2d(2, stride=2)
++        self.bn = nn.BatchNorm2d(noutput, eps=1e-3)
++
++    def forward(self, input):
++        output = torch.cat([self.conv(input), self.pool(input)], 1)
++        output = self.bn(output)
++        return F.relu(output)
++    
++
++class non_bottleneck_1d (nn.Module):
++    def __init__(self, chann, dropprob, dilated):        
++        super().__init__()
++
++        self.conv3x1_1 = nn.Conv2d(chann, chann, (3, 1), stride=1, padding=(1,0), bias=True)
++
++        self.conv1x3_1 = nn.Conv2d(chann, chann, (1,3), stride=1, padding=(0,1), bias=True)
++
++        self.bn1 = nn.BatchNorm2d(chann, eps=1e-03)
++
++        self.conv3x1_2 = nn.Conv2d(chann, chann, (3, 1), stride=1, padding=(1*dilated,0), bias=True, dilation = (dilated,1))
++
++        self.conv1x3_2 = nn.Conv2d(chann, chann, (1,3), stride=1, padding=(0,1*dilated), bias=True, dilation = (1, dilated))
++
++        self.bn2 = nn.BatchNorm2d(chann, eps=1e-03)
++
++        self.dropout = nn.Dropout2d(dropprob)
++        
++
++    def forward(self, input):
++
++        output = self.conv3x1_1(input)
++        output = F.relu(output)
++        output = self.conv1x3_1(output)
++        output = self.bn1(output)
++        output = F.relu(output)
++
++        output = self.conv3x1_2(output)
++        output = F.relu(output)
++        output = self.conv1x3_2(output)
++        output = self.bn2(output)
++
++        if (self.dropout.p != 0):
++            output = self.dropout(output)
++        
++        return F.relu(output+input)    #+input = identity (residual connection)
++
++
++class Encoder(nn.Module):
++    def __init__(self, num_classes):
++        super().__init__()
++        self.initial_block = DownsamplerBlock(3,16)
++
++        self.layers = nn.ModuleList()
++
++        self.layers.append(DownsamplerBlock(16,64))
++
++        for x in range(0, 5):    #5 times
++           self.layers.append(non_bottleneck_1d(64, 0.1, 1))  
++
++        self.layers.append(DownsamplerBlock(64,128))
++
++        for x in range(0, 2):    #2 times
++            self.layers.append(non_bottleneck_1d(128, 0.1, 2))
++            self.layers.append(non_bottleneck_1d(128, 0.1, 4))
++            self.layers.append(non_bottleneck_1d(128, 0.1, 8))
++            self.layers.append(non_bottleneck_1d(128, 0.1, 16))
++
++        #only for encoder mode:
++        self.output_conv = nn.Conv2d(128, num_classes, 1, stride=1, padding=0, bias=True)
++
++    def forward(self, input, predict=False):
++        output = self.initial_block(input)
++
++        for layer in self.layers:
++            output = layer(output)
++
++        if predict:
++            output = self.output_conv(output)
++
++        return output
++
++
++class UpsamplerBlock (nn.Module):
++    def __init__(self, ninput, noutput):
++        super().__init__()
++        self.conv = nn.ConvTranspose2d(ninput, noutput, 3, stride=2, padding=1, output_padding=1, bias=True)
++        self.bn = nn.BatchNorm2d(noutput, eps=1e-3)
++
++    def forward(self, input):
++        output = self.conv(input)
++        output = self.bn(output)
++        return F.relu(output)
++
++class Decoder (nn.Module):
++    def __init__(self, num_classes):
++        super().__init__()
++
++        self.layers = nn.ModuleList()
++
++        self.layers.append(UpsamplerBlock(128,64))
++        self.layers.append(non_bottleneck_1d(64, 0, 1))
++        self.layers.append(non_bottleneck_1d(64, 0, 1))
++
++        self.layers.append(UpsamplerBlock(64,16))
++        self.layers.append(non_bottleneck_1d(16, 0, 1))
++        self.layers.append(non_bottleneck_1d(16, 0, 1))
++
++        self.output_conv = nn.ConvTranspose2d( 16, num_classes, 2, stride=2, padding=0, output_padding=0, bias=True)
++
++    def forward(self, input):
++        output = input
++
++        for layer in self.layers:
++            output = layer(output)
++
++        output = self.output_conv(output)
++
++        return output
++
++
++class ERFNet(nn.Module):
++    def __init__(self, num_classes, encoder=None):  #use encoder to pass pretrained encoder
++        super().__init__()
++
++        if (encoder == None):
++            self.encoder = Encoder(num_classes)
++        else:
++            self.encoder = encoder
++        self.decoder = Decoder(num_classes)
++
++    def forward(self, input, only_encode=False):
++        if only_encode:
++            return self.encoder.forward(input, predict=True)
++        else:
++            output = self.encoder(input)    #predict=False by default
++            return self.decoder.forward(output)
++
++
++
+diff --git a/network/models/erfnet_eval.py b/network/models/erfnet_eval.py
+new file mode 100644
+index 0000000..a787673
+--- /dev/null
++++ b/network/models/erfnet_eval.py
+@@ -0,0 +1,211 @@
++# Code to produce colored segmentation output in Pytorch for all cityscapes subsets  
++# Sept 2017
++# Eduardo Romera
++#######################
++
++import numpy as np
++import torch
++import os
++import importlib
++
++from PIL import Image
++from argparse import ArgumentParser
++
++from torch.autograd import Variable
++from torch.utils.data import DataLoader
++from torchvision.transforms import Compose, CenterCrop, Normalize, Resize
++from torchvision.transforms import ToTensor, ToPILImage
++
++from input import CoIL
++from .transform import Relabel, ToLabel, Colorize
++from .erfnet import ERFNet
++
++import visdom
++
++
++NUM_CHANNELS = 3
++NUM_CLASSES = 20
++
++image_transform = ToPILImage()
++input_transform_cityscapes = Compose([
++    Resize((88,200),Image.BILINEAR),
++    ToTensor(),
++    #Normalize([.485, .456, .406], [.229, .224, .225]),
++])
++target_transform_cityscapes = Compose([
++    Resize((512,1024),Image.NEAREST),
++    ToLabel(),
++    Relabel(255, 19),   #ignore label to 19
++])
++
++cityscapes_trainIds2labelIds = Compose([
++    Relabel(19, 255),  
++    Relabel(18, 33),
++    Relabel(17, 32),
++    Relabel(16, 31),
++    Relabel(15, 28),
++    Relabel(14, 27),
++    Relabel(13, 26),
++    Relabel(12, 25),
++    Relabel(11, 24),
++    Relabel(10, 23),
++    Relabel(9, 22),
++    Relabel(8, 21),
++    Relabel(7, 20),
++    Relabel(6, 19),
++    Relabel(5, 17),
++    Relabel(4, 13),
++    Relabel(3, 12),
++    Relabel(2, 11),
++    Relabel(1, 8),
++    Relabel(0, 7),
++    Relabel(255, 0),
++    ToPILImage(),
++])
++
++def rgb2seg(rgb_names, number_of_workers):
++    model = ERFNet(NUM_CLASSES)
++
++    model = torch.nn.DataParallel(model)
++    model = model.cuda()
++     
++    # Set ERFnet for segmentation
++    print("LOAD ERFNet")
++    def load_my_state_dict(model, state_dict):  #custom function to load model when not all dict elements
++        own_state = model.state_dict()
++        for name, param in state_dict.items():
++            if name not in own_state:
++                continue
++            own_state[name].copy_(param)
++        return model
++    
++    model = load_my_state_dict(model, torch.load(os.path.join('trained_models/erfnet_pretrained.pth')))
++    model.eval()
++    print ("ERFNet and weights LOADED successfully")
++
++    loader = DataLoader(CoIL(rgb_names, input_transform_cityscapes, target_transform_cityscapes),
++        num_workers=number_of_workers, batch_size=1, shuffle=False)
++
++    tmp = []
++    for step, (images, labels, filename, filenameGt) in enumerate(loader):
++        # images = images.cuda()
++
++        inputs = Variable(images)
++        print("inputs ",inputs.shape)
++
++        with torch.no_grad():
++            outputs = model(inputs)
++
++        label = outputs[0].max(0)[1].byte().cpu().data
++        print("label ",label.shape)
++        #label_cityscapes = cityscapes_trainIds2labelIds(label.unsqueeze(0))
++        label_color = Colorize()(label.unsqueeze(0))
++
++        filenameSave = "./save_color/" + filename[0].split("CoILTrain/")[1]
++        os.makedirs(os.path.dirname(filenameSave), exist_ok=True)
++        #image_transform(label.byte()).save(filenameSave)      
++        label_save = ToPILImage()(label_color)           
++        label_save.save(filenameSave) 
++
++        print (step, filenameSave)
++
++        tmp.append(label)
++    
++    tmp = torch.stack(tmp)
++    print(tmp.shape)
++    return tmp
++
++    
++
++def main(args):
++
++    modelpath = args.loadDir + args.loadModel
++    weightspath = args.loadDir + args.loadWeights
++
++    print ("Loading model: " + modelpath)
++    print ("Loading weights: " + weightspath)
++
++    #Import ERFNet model from the folder
++    #Net = importlib.import_module(modelpath.replace("/", "."), "ERFNet")
++    model = ERFNet(NUM_CLASSES)
++  
++    model = torch.nn.DataParallel(model)
++    if (not args.cpu):
++        model = model.cuda()
++
++    #model.load_state_dict(torch.load(args.state))
++    #model.load_state_dict(torch.load(weightspath)) #not working if missing key
++
++    def load_my_state_dict(model, state_dict):  #custom function to load model when not all dict elements
++        own_state = model.state_dict()
++        for name, param in state_dict.items():
++            if name not in own_state:
++                 continue
++            own_state[name].copy_(param)
++        return model
++
++    model = load_my_state_dict(model, torch.load(weightspath))
++    print ("Model and weights LOADED successfully")
++
++    model.eval()
++
++    if(not os.path.exists(args.datadir)):
++        print ("Error: datadir could not be loaded")
++
++
++    # loader = DataLoader(cityscapes(args.datadir, input_transform_cityscapes, target_transform_cityscapes, subset=args.subset),
++    #     num_workers=args.num_workers, batch_size=args.batch_size, shuffle=False)
++    loader = DataLoader(CoIL(args.datadir, input_transform_cityscapes, target_transform_cityscapes),
++        num_workers=args.num_workers, batch_size=args.batch_size, shuffle=False)
++
++    # For visualizer:
++    # must launch in other window "python3.6 -m visdom.server -port 8097"
++    # and access localhost:8097 to see it
++    if (args.visualize):
++        vis = visdom.Visdom()
++
++    for step, (images, labels, filename, filenameGt) in enumerate(loader):
++        if (not args.cpu):
++            images = images.cuda()
++            #labels = labels.cuda()
++
++        inputs = Variable(images)
++        print("inputs ",inputs.shape)
++        #targets = Variable(labels)
++        with torch.no_grad():
++            outputs = model(inputs)
++
++        label = outputs[0].max(0)[1].byte().cpu().data
++        print("label ",label.shape)
++        #label_cityscapes = cityscapes_trainIds2labelIds(label.unsqueeze(0))
++        label_color = Colorize()(label.unsqueeze(0))
++
++        filenameSave = "./save_color/" + filename[0].split("CoILTrain/")[1]
++        os.makedirs(os.path.dirname(filenameSave), exist_ok=True)
++        #image_transform(label.byte()).save(filenameSave)      
++        label_save = ToPILImage()(label_color)           
++        label_save.save(filenameSave) 
++
++        if (args.visualize):
++            vis.image(label_color.numpy())
++        print (step, filenameSave)
++
++    
++
++if __name__ == '__main__':
++    parser = ArgumentParser()
++
++    parser.add_argument('--state')
++
++    parser.add_argument('--loadDir',default="../trained_models/")
++    parser.add_argument('--loadWeights', default="erfnet_pretrained.pth")
++    parser.add_argument('--loadModel', default="erfnet.py")
++    parser.add_argument('--subset', default="val")  #can be val, test, train, demoSequence
++
++    parser.add_argument('--datadir', default=os.getenv("HOME") + "/datasets/cityscapes/")
++    parser.add_argument('--num-workers', type=int, default=4)
++    parser.add_argument('--batch-size', type=int, default=1)
++    parser.add_argument('--cpu', action='store_true')
++
++    parser.add_argument('--visualize', action='store_true')
++    main(parser.parse_args())
+diff --git a/network/models/transform.py b/network/models/transform.py
+new file mode 100755
+index 0000000..89d5c1b
+--- /dev/null
++++ b/network/models/transform.py
+@@ -0,0 +1,93 @@
++# Code with transformations for Cityscapes (adapted from bodokaiser/piwise code)
++# Sept 2017
++# Eduardo Romera
++#######################
++
++import numpy as np
++import torch
++
++from PIL import Image
++
++def colormap_cityscapes(n):
++    cmap=np.zeros([n, 3]).astype(np.uint8)
++    cmap[0,:] = np.array([128, 64,128])
++    cmap[1,:] = np.array([244, 35,232])
++    cmap[2,:] = np.array([ 70, 70, 70])
++    cmap[3,:] = np.array([ 102,102,156])
++    cmap[4,:] = np.array([ 190,153,153])
++    cmap[5,:] = np.array([ 153,153,153])
++
++    cmap[6,:] = np.array([ 250,170, 30])
++    cmap[7,:] = np.array([ 220,220,  0])
++    cmap[8,:] = np.array([ 107,142, 35])
++    cmap[9,:] = np.array([ 152,251,152])
++    cmap[10,:] = np.array([ 70,130,180])
++
++    cmap[11,:] = np.array([ 220, 20, 60])
++    cmap[12,:] = np.array([ 255,  0,  0])
++    cmap[13,:] = np.array([ 0,  0,142])
++    cmap[14,:] = np.array([  0,  0, 70])
++    cmap[15,:] = np.array([  0, 60,100])
++
++    cmap[16,:] = np.array([  0, 80,100])
++    cmap[17,:] = np.array([  0,  0,230])
++    cmap[18,:] = np.array([ 119, 11, 32])
++    cmap[19,:] = np.array([ 0,  0,  0])
++    
++    return cmap
++
++
++def colormap(n):
++    cmap=np.zeros([n, 3]).astype(np.uint8)
++
++    for i in np.arange(n):
++        r, g, b = np.zeros(3)
++
++        for j in np.arange(8):
++            r = r + (1<<(7-j))*((i&(1<<(3*j))) >> (3*j))
++            g = g + (1<<(7-j))*((i&(1<<(3*j+1))) >> (3*j+1))
++            b = b + (1<<(7-j))*((i&(1<<(3*j+2))) >> (3*j+2))
++
++        cmap[i,:] = np.array([r, g, b])
++
++    return cmap
++
++class Relabel:
++
++    def __init__(self, olabel, nlabel):
++        self.olabel = olabel
++        self.nlabel = nlabel
++
++    def __call__(self, tensor):
++        assert isinstance(tensor, torch.LongTensor) or isinstance(tensor, torch.ByteTensor) , 'tensor needs to be LongTensor'
++        tensor[tensor == self.olabel] = self.nlabel
++        return tensor
++
++
++class ToLabel:
++
++    def __call__(self, image):
++        return torch.from_numpy(np.array(image)).long().unsqueeze(0)
++
++
++class Colorize:
++
++    def __init__(self, n=22):
++        #self.cmap = colormap(256)
++        self.cmap = colormap_cityscapes(256)
++        self.cmap[n] = self.cmap[-1]
++        self.cmap = torch.from_numpy(self.cmap[:n])
++
++    def __call__(self, gray_image):
++        size = gray_image.size()
++        color_image = torch.ByteTensor(3, size[1], size[2]).fill_(0)
++
++        #for label in range(1, len(self.cmap)):
++        for label in range(0, len(self.cmap)):
++            mask = gray_image[0] == label
++
++            color_image[0][mask] = self.cmap[label][0]
++            color_image[1][mask] = self.cmap[label][1]
++            color_image[2][mask] = self.cmap[label][2]
++
++        return color_image
+diff --git a/network/optimizer.py b/network/optimizer.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/__init__.py b/plotter/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/data_reading.py b/plotter/data_reading.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/metrics.py b/plotter/metrics.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/plot_on_map.py b/plotter/plot_on_map.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/plotter.py b/plotter/plotter.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/plotting_params/eccv_online_offline_plots.py b/plotter/plotting_params/eccv_online_offline_plots.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/plotting_params/plotting_all_cameras.py b/plotter/plotting_params/plotting_all_cameras.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/plotting_params/sample_plot.py b/plotter/plotting_params/sample_plot.py
+old mode 100644
+new mode 100755
+diff --git a/plotter/scatter_plotter.py b/plotter/scatter_plotter.py
+old mode 100644
+new mode 100755
+diff --git a/requirements.yaml b/requirements.yaml
+old mode 100644
+new mode 100755
+diff --git a/run_plotting.py b/run_plotting.py
+old mode 100644
+new mode 100755
+diff --git a/testing/__init__.py b/testing/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/testing/full_tests/test_load_data.py b/testing/full_tests/test_load_data.py
+old mode 100644
+new mode 100755
+diff --git a/testing/unit_tests/test_random_sampler.py b/testing/unit_tests/test_random_sampler.py
+old mode 100644
+new mode 100755
+diff --git a/tools/__init__.py b/tools/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/tools/analize_results.py b/tools/analize_results.py
+old mode 100644
+new mode 100755
+diff --git a/tools/batch_rename.py b/tools/batch_rename.py
+old mode 100644
+new mode 100755
+diff --git a/tools/download_nocrash_models.py b/tools/download_nocrash_models.py
+old mode 100644
+new mode 100755
+diff --git a/tools/download_sample_models.py b/tools/download_sample_models.py
+old mode 100644
+new mode 100755
+diff --git a/tools/download_tools.py b/tools/download_tools.py
+old mode 100644
+new mode 100755
+diff --git a/tools/get_baseline_dataset.py b/tools/get_baseline_dataset.py
+old mode 100644
+new mode 100755
+diff --git a/tools/get_offline_online_data.py b/tools/get_offline_online_data.py
+old mode 100644
+new mode 100755
+diff --git a/tools/get_sample_datasets.py b/tools/get_sample_datasets.py
+old mode 100644
+new mode 100755
+diff --git a/tools/get_town03_dataset.py b/tools/get_town03_dataset.py
+old mode 100644
+new mode 100755
+diff --git a/tools/plot_offline_evaluation.py b/tools/plot_offline_evaluation.py
+old mode 100644
+new mode 100755
+diff --git a/tools/plot_predictions_on_images.py b/tools/plot_predictions_on_images.py
+old mode 100644
+new mode 100755
+diff --git a/tools/screen_manager.py b/tools/screen_manager.py
+old mode 100644
+new mode 100755
+diff --git a/tools/view_npy.py b/tools/view_npy.py
+old mode 100644
+new mode 100755
+diff --git a/trained_models/erfnet_encoder_pretrained.pth.tar b/trained_models/erfnet_encoder_pretrained.pth.tar
+new file mode 100755
+index 0000000..4e7313e
+Binary files /dev/null and b/trained_models/erfnet_encoder_pretrained.pth.tar differ
+diff --git a/trained_models/erfnet_pretrained.pth b/trained_models/erfnet_pretrained.pth
+new file mode 100755
+index 0000000..44fc485
+Binary files /dev/null and b/trained_models/erfnet_pretrained.pth differ
+diff --git a/view_model.py b/view_model.py
+old mode 100644
+new mode 100755
+diff --git a/vis_label.py b/vis_label.py
+new file mode 100755
+index 0000000..bc1c2a2
+--- /dev/null
++++ b/vis_label.py
+@@ -0,0 +1,20 @@
++import os
++import numpy as np
++from PIL import Image
++import matplotlib.pyplot as plt
++
++def draw(label, title):
++    plt.subplots()
++    plt.imshow(label, cmap='jet')
++    plt.title(title)
++    plt.colorbar()
++    plt.show()
++
++dirname = "test_label"
++label_dir = os.listdir(dirname)
++for label_file in label_dir:
++    label = np.array(Image.open(dirname+"/"+label_file))
++    print(np.unique(label))
++
++#    draw(label, label_file)
++
