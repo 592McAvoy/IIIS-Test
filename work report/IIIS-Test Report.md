@@ -499,11 +499,11 @@ TARGETS: ['steer', 'throttle', 'brake', 'waypoint1_angle', 'waypoint2_angle']
 
 - $512*1024$ coil
 
-  ![](D:/IIIS%20Test/work%20report/img/coil-512_1024.jpg)
+  ![](img/coil-512_1024.jpg)
 
 - $88*200$ coil
 
-  ![](D:/IIIS%20Test/work%20report/img/coil-88_200.jpg)
+  ![](img/coil-88_200.jpg)
 
 从eval的结果来看：
 
@@ -759,7 +759,7 @@ INFO:coil_icra_drive_TestT1_Town01:{'Iterating': {'Checkpoint': 8000}}
 
 3. log中的waypoints可视化图片也没有点：
 
-![](D:/IIIS%20Test/work%20report/img/7.png)
+![](img/7.png)
 
 因为train&validation中的结果都比较合理，所以我认为应该不是我的实现的问题，有可能是CARLA版本或者是某些未知的原因，由于项目已经接近ddl，就没有进行进一步查错了，希望老师谅解
 
